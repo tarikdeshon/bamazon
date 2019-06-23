@@ -1,0 +1,11 @@
+{
+  "name": "nodemysql",
+  "version": "1.3.7",
+  "description": "Node MySQL application",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tarikp",
+  "license": "ISC"
+}
