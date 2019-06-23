@@ -3,10 +3,6 @@ var color = require('cli-color');
 var Product = require('./product.js').Product;
 var connection = require('./databaseConnection.js').connection;
 
-// ==========
-// DATABASE
-// ==========
-
 var database = {
     // initially display all items available for sale, include names prices ids 
     listItems: function (func) {
@@ -180,8 +176,6 @@ var storefront = {
 };
 
 
-// ==========
-// INITIALIZE
-// ==========
+
 
 database.listItems(storefront.getOrder);

@@ -1,15 +1,8 @@
-// =============
-// DEPENDENCIES
-// =============
-
 var inquirer = require('inquirer');
 var color = require('cli-color');
 var Product = require('./product.js').Product;
 var connection = require('./databaseConnection.js').connection;
 
-// =================
-// USER INTERACTION
-// =================
 
 var workplace = {
     'stockArray': [],
